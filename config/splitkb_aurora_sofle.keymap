@@ -77,11 +77,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0              &bt BT_SEL 1          &bt BT_SEL 2       &bt BT_SEL 3           &bt BT_SEL 4                    &trans  &trans                &trans                      &trans                           &trans                   &trans
-&trans      &trans                    &trans                &trans             &trans                 &trans                          &trans  &kp CARET             &kp LBKT                    &kp RBKT                         &kp DOLLAR               &trans
-&kp GRAVE   &mt LEFT_GUI EXCLAMATION  &mt LEFT_ALT AT_SIGN  &mt LCTRL HASH     &mt LEFT_SHIFT DOLLAR  &kp PRCNT                       &trans  &mt RSHIFT AMPERSAND  &mt RCTRL LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RIGHT_GUI BACKSLASH  &kp TILDE
-&trans      &ext_power EP_ON          &ext_power EP_OFF     &ext_power EP_TOG  &trans                 &trans        &trans    &trans  &trans  &kp ASTRK             &kp LS(LBRC)                &kp LS(RBRC)                     &kp FSLH                 &kp PIPE
-                                      &trans                &trans             &trans                 &trans        &trans    &trans  &trans  &trans                &trans                      &trans
+&bt BT_CLR  &bt BT_SEL 0              &bt BT_SEL 1          &bt BT_SEL 2    &bt BT_SEL 3           &bt BT_SEL 4                    &trans  &trans                &trans                      &trans                           &trans                   &trans
+&trans      &trans                    &kp SEMICOLON         &kp EQUAL       &kp PERCENT            &trans                          &trans  &kp CARET             &kp LBKT                    &kp RBKT                         &kp DOLLAR               &trans
+&trans      &mt LEFT_GUI EXCLAMATION  &mt LEFT_ALT AT_SIGN  &mt LCTRL HASH  &mt LEFT_SHIFT DOLLAR  &trans                          &trans  &mt RSHIFT AMPERSAND  &mt RCTRL LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RIGHT_GUI BACKSLASH  &kp TILDE
+&trans      &trans                    &trans                &kp GRAVE       &kp SINGLE_QUOTE       &trans        &trans    &trans  &trans  &kp ASTRK             &kp LS(LBRC)                &kp LS(RBRC)                     &kp FSLH                 &kp PIPE
+                                      &trans                &trans          &trans                 &trans        &trans    &trans  &trans  &trans                &trans                      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -97,7 +97,7 @@
 
             bindings = <
 &trans     &trans           &trans           &trans        &trans             &trans                    &trans       &trans     &trans            &trans           &trans      &trans
-&kp GRAVE  &kp N1           &kp N2           &kp N3        &kp N4             &kp N5                    &kp N6       &kp CARET  &kp LEFT_BRACKET  &kp RBKT         &kp DOLLAR  &trans
+&kp GRAVE  &trans           &trans           &trans        &trans             &trans                    &trans       &kp CARET  &kp LEFT_BRACKET  &kp RBKT         &kp DOLLAR  &trans
 &kp F1     &mt LEFT_GUI F2  &mt LEFT_ALT F3  &mt LCTRL F4  &mt LEFT_SHIFT F5  &trans                    &trans       &kp LEFT   &kp DOWN          &kp UP           &kp RIGHT   &trans
 &trans     &trans           &trans           &trans        &trans             &trans  &trans    &trans  &kp KP_PLUS  &kp ASTRK  &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans      &kp BSLH
                             &trans           &trans        &trans             &trans  &trans    &trans  &trans       &trans     &trans            &trans
@@ -108,11 +108,11 @@
 
         num_fn_layer {
             bindings = <
-&trans  &trans           &trans           &trans         &trans              &trans                     &trans  &trans                    &kp KP_DIVIDE  &kp KP_ASTERISK         &trans                 &trans
-&kp F1  &kp F2           &kp F3           &kp F4         &kp F5              &kp F6                     &trans  &kp N7                    &kp N8         &kp N9                  &kp MINUS              &trans
-&kp F7  &mt LEFT_GUI F8  &mt LEFT_ALT F9  &mt LCTRL F10  &mt LEFT_SHIFT F11  &kp F12                    &trans  &mt RIGHT_SHIFT NUMBER_4  &mt RCTRL N5   &mt RIGHT_ALT NUMBER_6  &mt RIGHT_GUI KP_PLUS  &trans
-&trans  &trans           &trans           &trans         &trans              &trans   &trans    &trans  &trans  &kp N1                    &kp N2         &kp N3                  &trans                 &trans
-                         &trans           &trans         &trans              &trans   &trans    &trans  &kp N0  &trans                    &trans         &trans
+&ext_power EP_TOG  &ext_power EP_ON  &ext_power EP_OFF  &trans         &trans              &trans                     &trans  &trans                    &kp KP_DIVIDE  &kp KP_ASTERISK         &trans                 &trans
+&kp F1             &kp F2            &kp F3             &kp F4         &kp F5              &kp F6                     &trans  &kp N7                    &kp N8         &kp N9                  &kp MINUS              &trans
+&kp F7             &mt LEFT_GUI F8   &mt LEFT_ALT F9    &mt LCTRL F10  &mt LEFT_SHIFT F11  &kp F12                    &trans  &mt RIGHT_SHIFT NUMBER_4  &mt RCTRL N5   &mt RIGHT_ALT NUMBER_6  &mt RIGHT_GUI KP_PLUS  &trans
+&trans             &trans            &trans             &trans         &trans              &trans   &trans    &trans  &trans  &kp N1                    &kp N2         &kp N3                  &trans                 &trans
+                                     &trans             &trans         &trans              &trans   &trans    &trans  &kp N0  &trans                    &trans         &trans
             >;
         };
     };
