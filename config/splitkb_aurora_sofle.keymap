@@ -23,6 +23,9 @@
     tapping-term-ms = <225>;
 };
 
+&left_encoder { resolution = <2>; };
+&right_encoder { resolution = <2>; };
+
 / {
     behaviors {
         shift_mod_tap: shift_mod_tap {
