@@ -23,8 +23,8 @@
     tapping-term-ms = <225>;
 };
 
-&left_encoder { resolution = <2>; steps = <36>; };
-&right_encoder { resolution = <2>; steps = <36>; };
+&left_encoder { resolution = <8>; steps = <36>; };
+&right_encoder { resolution = <8>; steps = <36>; };
 
 / {
     behaviors {
