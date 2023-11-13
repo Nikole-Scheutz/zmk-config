@@ -89,7 +89,7 @@
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0              &bt BT_SEL 1          &bt BT_SEL 2    &bt BT_SEL 3                      &bt BT_SEL 4                    &trans         &trans                          &trans                      &trans                           &trans                   &trans
 &trans      &trans                    &kp SEMICOLON         &kp EQUAL       &kp PERCENT                       &trans                          &kp PAGE_UP    &kp CARET                       &kp LBKT                    &kp RBKT                         &kp DOLLAR               &trans
-&trans      &mt LEFT_GUI EXCLAMATION  &mt LEFT_ALT AT_SIGN  &mt LCTRL HASH  &shift_mod_tap LEFT_SHIFT DOLLAR  &trans                          &kp PAGE_DOWN  &shift_mod_tap AMPERSAND RSHFT  &mt RCTRL LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RIGHT_GUI BACKSLASH  &kp TILDE
+&trans      &mt LEFT_GUI EXCLAMATION  &mt LEFT_ALT AT_SIGN  &mt LCTRL HASH  &shift_mod_tap LEFT_SHIFT DOLLAR  &trans                          &kp PAGE_DOWN  &shift_mod_tap RSHFT AMPERSAND  &mt RCTRL LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RIGHT_GUI BACKSLASH  &kp TILDE
 &trans      &trans                    &trans                &kp GRAVE       &kp SINGLE_QUOTE                  &trans        &trans    &trans  &trans         &kp ASTRK                       &kp LS(LBRC)                &kp LS(RBRC)                     &kp FSLH                 &kp PIPE
                                       &trans                &trans          &trans                            &trans        &trans    &trans  &trans         &trans                          &trans                      &trans
             >;
