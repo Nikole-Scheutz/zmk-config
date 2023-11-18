@@ -50,7 +50,7 @@
             compatible = "zmk,behavior-caps-word";
             label = "CAPS_DASH_WORD";
             #binding-cells = <0>;
-            continue-list = <Q W F P G J L U Y A R S T N E I O Z X C V B K M UNDERSCORE MINUS>;
+            continue-list = <Q W F P G J L U Y A R S T N E I Z X C V B K M UNDERSCORE MINUS O H D BACKSPACE>;
         };
     };
 
