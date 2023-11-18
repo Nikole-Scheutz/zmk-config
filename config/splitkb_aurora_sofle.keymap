@@ -53,6 +53,14 @@
             continue-list = <Q W F P G J L U Y A R S T N E I Z X C V B K M UNDERSCORE MINUS O H D BACKSPACE SEMICOLON COLON SEMI>;
             mods = <(MOD_LSFT)>;
         };
+
+        caps_word_2: caps_word_2 {
+            compatible = "zmk,behavior-caps-word";
+            label = "CAPS_WORD_2";
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            continue-list = <SEMICOLON SEMI COLON O>;
+        };
     };
 
     combos {
@@ -74,7 +82,7 @@
         };
 
         caps_dash_word {
-            bindings = <&caps_dash_word>;
+            bindings = <&caps_word_2>;
             key-positions = <15 20>;
         };
     };
