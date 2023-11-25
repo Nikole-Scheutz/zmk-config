@@ -86,14 +86,9 @@
             key-positions = <15 20>;
         };
 
-        altgr-l {
-            bindings = <&kp RIGHT_ALT>;
-            key-positions = <14 26>;
-        };
-
-        altgr-r {
-            bindings = <&kp RIGHT_ALT>;
-            key-positions = <21 33>;
+        sticky-altgr {
+            bindings = <&sk RIGHT_ALT>;
+            key-positions = <26 33>;
         };
     };
 
